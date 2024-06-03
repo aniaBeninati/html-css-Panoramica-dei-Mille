@@ -1,0 +1,87 @@
+.contenitore-lacasa {
+    width: 100%;
+    height: 400px;
+    background-color:var(--color-gold) ;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.testo-lacasa, .immaginesingola-lacasa {
+    flex: 1; /* Occupa lo stesso spazio */
+    padding: 20px; /* Aggiungi spaziatura interna */
+}
+
+.immaginesingola-lacasa {
+    margin-top: 15px;
+}
+
+.immaginesingola-lacasa img{
+    width: 500px;
+    transform:scale(1.1);
+    transition: 0.5s ease; 
+    opacity: 0.8s ease;
+}
+
+.contenitore-lacasareverse {
+    width: 100%;
+    height: 400px;
+    background-color:#fff ;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+.contenitore-lacasa .immaginesingola {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.contenitore-lacasa:hover .immaginesingola {
+    opacity: 1;
+    transform: translateX(0);
+    transform: transform 1s ease, opacity 1s ease;
+}
+
+.contenitore-lacasareverse .immaginesingola {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.contenitore-lacasareverse:hover .immaginesingola {
+    opacity: 1;
+    transform: translateX(0);
+    transform: transform 1s ease, opacity 1s ease;
+}
+
+.centrato-iphone {
+    background-color:var(--color-footer);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.iphone {
+    width: 400px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+video {
+    object-fit: cover; /* ridimensiona il video per coprire completamente il suo contenitore, mantenendo proporzioni e tagliando eventuali parti in eccesso. */
+    position: relative;
+    top: 40px;
+    left: 140%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.centrato-iphone h2 {
+    padding-top: 30px;
+    color: #fff;
+}
+
+.centrato-iphone h3 {
+    padding-top: 30px;
+    color: #fff;
+}

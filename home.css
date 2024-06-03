@@ -1,0 +1,124 @@
+.calendario-disponibilita {
+  background-color:  #d3d3d3;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.calendario-disponibilita h1 {
+  color: #3d3d3d;
+  margin: 0;
+  padding-top: 60px;
+}
+
+form {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  width: 200px; /* Regola la larghezza a tuo piacimento */
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: var(--color-generalred);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-generalred);
+}
+
+.contenitore-home {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contenitore-home h2 {
+  color: var(--color-generalred);
+  margin-top: 60px;
+} 
+.contenitore-home h3 {
+  color:  var(--color-generalred);
+}
+
+.contenitore-home-descrizionetesto {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.contenitore-testimonianze {
+  background-color:  #d3d3d3;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.contenitore-testimonianze h3 {
+  color:var(--color-gold) ;
+  padding-top: 70px;
+}
+
+.contenitore-testimonianze p {
+  padding-top: 20px;
+  padding-left: 200px ;
+  padding-right: 200px;
+  font-style: italic;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--color-gold);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px; /*comprime il bottone*/
+}
+
+.btn:hover {
+  background-color:var(--color-generalred);
+}
+

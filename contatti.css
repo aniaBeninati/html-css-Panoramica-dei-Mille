@@ -1,0 +1,71 @@
+.contenitoreform-mappa{
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.vignetta {
+    background-color: var(--color-generalred);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.vignetta p {
+    margin: 5px 0;
+}
+
+.scritta {
+    color: var(--color-gold);
+    margin: 10px 0;
+}
+
+.styled-form {
+    background-color: var(--color-gold);
+    padding: 40px;
+    border-radius: 10px;
+    width: auto;
+}
+
+
+.styled-form label {
+    font-weight: bold; 
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="number"],
+.styled-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.styled-form textarea {
+    height: 100px;
+}
+
+.styled-form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-form button:hover {
+    background-color: var(--color-generalred);
+}
+
+
+.contenitoreform-mappa img {
+    margin-left: 30px;
+    margin-top: 60px;
+    border: 2px solid var(--color-generalred);
+}

@@ -1,0 +1,159 @@
+@import url("header.css");
+@import url("text.css");
+@import url("colori-variabile.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url("home.css");
+@import url("lacasa.css");
+@import url("contatti.css");
+
+@media only screen and (max-width: 768px) {
+    
+    .top-header { 
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* per centrare logo e menu */
+    }
+    
+    .menu,
+    .menu ul{
+        padding: 0;
+    }
+    
+    .bottom-header h3 {
+        font-size: small;
+    }
+    .bottom-header h2 {
+        font-size: xx-large;
+    }
+    
+    .bottom-header h1 {
+        font-size: large;
+    }
+    
+    
+    #logo-footer{
+        max-width: 20%;
+        height: auto;
+    }
+    
+    .contenitore-home-descrizionetesto {
+        margin: 0;
+    }
+    
+    .contenitore-testimonianze {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenitore-testimonianze h3{
+        padding-top: 10px;
+    }
+    
+    .contenitore-testimonianze p {
+        padding: 0;
+    }
+    
+    
+    .contenitore-lacasa {
+        height: auto; /* per ridimensionare l altezza al contenuto dei figli */
+        width: 100%;
+        flex-direction: column;  /* per mettere in colonna i contenuti */
+        align-items: center; /* per centrarli */
+    }
+    
+    .contenitore-lacasareverse {
+        height: auto; /* per adeguare l altezza al contenuto dei figli */
+        width: 100%;
+        flex-direction: column;  /* per mettere in colonna i contenuti */
+        align-items: center; /* per centrarli */
+    }
+    
+    .immaginesingola-lacasa img{
+        width: 100%;
+    }
+    
+    .testo-lacasa, .immaginesingola-lacasa {
+        margin: 0; /* Occupa lo stesso spazio */
+        padding: 0; /* Aggiungi spaziatura interna */
+    }
+    
+    .immaginesingola-lacasa {
+        margin-top: 15px;
+    }
+    
+    .centrato-phone {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .iphone {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .iphone video{
+        width: 100%;
+        height: auto; 
+        position: static;
+        
+    }
+    
+    .contenitoreform-mappa{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .contenitoreform-mappa img{
+        height: auto!important;
+        width: 100%!important;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    
+    .immaginesingola-lacasa img,
+    .immaginesingola-lacasa:focus img {
+        opacity: 0; 
+        transform: scale(1.1); 
+    }
+    
+    /* Aggiungi un'animazione di dissolvenza */
+    .immaginesingola-lacasa img,
+    .immaginesingola-lacasa:focus img {
+        animation: fadeIn 1s ease forwards; 
+    }
+    
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0; 
+            transform: scale(1.1); 
+        }
+        to {
+            opacity: 1; 
+            transform: scale(1); 
+        }
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
