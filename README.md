@@ -1,8 +1,7 @@
 # Panoramica dei Mille
 
 ## 📸 Screenshot
-
-(./Immagini/Screenshot.png)
+![Screenshot del Progetto](./Immagini/Screenshot.png)
 
 ## 🚀 Panoramica del Progetto
 
@@ -36,4 +35,3 @@ Per ottenere una copia locale del progetto e avviarlo, segui questi passaggi:
 1. **Clona il repository:**
    ```bash
    git clone https://github.com/aniaBeninati/html-css-Panoramica-dei-Mille.git
-   ```
