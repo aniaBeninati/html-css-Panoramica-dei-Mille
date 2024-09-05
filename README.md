@@ -28,6 +28,10 @@ Il repository è organizzato nelle seguenti sezioni principali:
 - **Icone e Immagini Personalizzate**: Elementi di design unici per migliorare l'appeal visivo.
 - **CSS Modulare**: CSS organizzato per facilitare la manutenzione e la scalabilità.
 
+## 🌐 Demo Online
+
+Visita la demo del progetto: [Panoramica dei mille](https://html-css-panoramica-dei-mille.vercel.app/)
+
 ## 🚀 Come Iniziare
 
 Per ottenere una copia locale del progetto e avviarlo, segui questi passaggi:
